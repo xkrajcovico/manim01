@@ -2,7 +2,8 @@ from manimlib import *
 
 #tutorial from here
 #https://3b1b.github.io/manim/getting_started/example_scenes.html
-#manimgl start.py SquareToCircle
+#to compile, run this command
+#manimgl manim_by_tutotrial01.py SquareToCircle
 
 class SquareToCircle(Scene):
     def construct(self):
@@ -20,7 +21,7 @@ class SquareToCircle(Scene):
             """
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
             """,
-            font="Arial", font_size=24,
+            font="calibri", font_size=24,
             # t2c is a dict that you can choose color for different text
             t2c={"Text": BLUE, "TexText": BLUE, "LaTeX": ORANGE}
         )
@@ -37,7 +38,7 @@ class SquareToCircle(Scene):
         )
         fonts.set_width(FRAME_WIDTH - 1)
         slant = Text(
-            "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. ",
+            "Pellentesque habitant morbi tristique senectus",
             font="Consolas",
             t2s={"slant": ITALIC},
             t2w={"weight": BOLD},
