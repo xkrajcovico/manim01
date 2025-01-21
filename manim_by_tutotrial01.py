@@ -2,7 +2,7 @@ from manimlib import *
 
 #tutorial from here
 #https://3b1b.github.io/manim/getting_started/example_scenes.html
-
+#manimgl start.py SquareToCircle
 
 class SquareToCircle(Scene):
     def construct(self):
